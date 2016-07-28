@@ -1,6 +1,66 @@
-h1{
+.background{
+	background-color: rgba(0, 44, 44, 0.9);
+}
+
+#header-nav {
+    background-color: #000;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand h1{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
 	color: blue;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+
 }
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.container h2{
+font-family:'Oswald', sans-serif; 
+color: #000;
+}
+
+#logo-img {
+    background: url('../images/logo.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 10px 15px 10px 0;
+    background-size: contain;
+
+}
+
+.menuMeals{
+	background-color: #ebebeb;
+	padding: 15px 30px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.menuMeals h3{
+	margin-top: 0px;
+}
+
+.navbar-nav>li>a{
+	text-align: center;
+	display: block;
+}
+
+
+#nav-list.navbar-nav> li > a:hover, .navbar-nav> li > a:focus{
+	color: #ffffff;
+	background-color: blue;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid blue;
+    }
