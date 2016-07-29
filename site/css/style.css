@@ -50,6 +50,10 @@ color: #000;
 	margin-top: 0px;
 }
 
+.menuMeals p{
+	text-align: justify;
+}
+
 .navbar-nav>li>a{
 	text-align: center;
 	display: block;
